@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>polly的个人简历</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div class="logo down" id="logo">POL-YUAN</div>
+	<div class="contain current">
+		<div class="pages" id="pages">	
+			<div class="page first" id="firstPage">
+				<span class="txt-info about-me">about Me</span>
+				<span class="txt-info">袁野&个人简历</span>
+				<i class="line"></i>
+			</div>
+			<div class="page">
+				<div class="icon-photo">
+					<img src="img/icon_photo.jpg" alt="">
+				</div>
+				<div class="txt-h"></div>
+			</div>
+			<div class="page">
+			</div>
+			<div class="page">
+			</div>
+		</div>
+	</div>
+	<div class="dots" id="dots">
+	</div>
+</body>
+<script src="index.js"></script>
+<script>
+	var pages=document.getElementById('pages');
+	var dots=document.getElementById('dots');
+
+	var fullpage=new Fullpage(pages,dots);
+	fullpage.init();
+</script>
+</html>
